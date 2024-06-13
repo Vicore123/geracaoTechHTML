@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Document</title>
+    <style>
+        table, th, td, tr {
+            border: 1px solid black;
+        }
+    </style>
+    
 </head>
 <body>
     <!-- Comentarios -->
-    <h1>Aula 02</h1>
+    <h1>Exemplos de utilização das tags</h1>
 
     <h2>Apresentação das listas</h2>
 
@@ -62,6 +68,45 @@
 
         Se eu te perder um dia</p>
 
+    <h2>Apresentação Tabelas</h2>
+
+    <table>
+        <!-- titulo das colunas -->
+        
+        <th>Coluna1</th>
+        <th>Coluna2</th>
+        <th>Coluna3</th>
+        
+        <!-- informações da tabela -->
+        <tr>
+            <td>L1C1</td>
+            <td>L1C2</td>
+            <td>L1C3</td>
+        </tr>
+
+        <tr>
+            <td>L2C1</td>
+            <td>L2C2</td>
+            <td>L2C3</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">L3C1/2</td>
+            <td>L3C3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">L4/5C1</td>
+            <td>L4C2</td>
+            <td>L4C3</td>
+        </tr>
+
+        <tr>
+            <td>L5C2</td>
+            <td>L5C3</td>
+        </tr>
+
+    </table>
         
 </body>
 </html>
