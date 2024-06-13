@@ -6,8 +6,9 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Document</title>
     <style>
-        table, th, td, tr {
-            border: 1px solid black;
+        table, th, td, tr, form {
+            border: 2px solid black;
+            border-collapse: collapse;
         }
     </style>
     
@@ -108,5 +109,67 @@
 
     </table>
         
+    <h2>Apresentação Formulários</h2>
+
+    <form action="#">
+
+        <label for="meuID">
+            Rótulo da informação a ser inserida
+        </label>
+        <br>
+        <input type="text" id="meuID">
+        <br>
+
+        <label for="numero">
+            Rótulo para numero
+        </label>
+        <br>
+        <input type="number" id="numero">
+        <br>
+
+        <label for="email">
+            Rótulo para e-mail
+        </label>
+        <br>
+        <input type="email" id="email" placeholder="exemplo@email.com">
+        <br>
+
+        <label for="senha">
+            Rótulo para senha
+        </label>
+        <br>
+        <input type="password" name="" id="senha">
+        <br>
+
+        <label for="">
+            Exemplo Caixa de seleção
+        </label>
+        <br>
+        <input type="checkbox" name="selecao" id="f" value="LojaFeminino">
+        <label for="f">Loja Departamento Faminino</label>
+
+        <input type="checkbox" name="selecao" id="m">
+        <label for="m">Loja Departamento Masculino</label>
+        <br>
+        <br>
+
+        <label for="">Exemplo de seleção única</label>
+        <br> 
+
+        <input type="radio" name="selecaoUnica" id="um" value="1">
+        <label for="um">Exemplo</label> <br>
+
+        <input type="radio" name="selecaoUnica" id="dois" value="2">
+        <label for="dois">Exemplo 2</label> <br><br>
+
+        <label for="testeSelect">Seleção por listas</label><br>
+        <select name="testeSelect" id="testeSelect">
+            <option value="1" disabled>Um</option>
+            <option value="2">Dois</option>
+            <option value="3">Três</option>
+        </select><br><br>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="xingue aqui"></textarea>
+    </form>
 </body>
 </html>
