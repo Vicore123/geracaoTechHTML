@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body class="bg-secondary">
+    
+    <h1 class="text-light text-center text-uppercase py-5 bg-dark">Formulário Bootstrap</h1>
+    
+    
+    <div class="d-flex justify-content-center">
+        <form action="" class="bg-light p-4 m-4 container-md">
+        <!-- Email -->
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <!-- Mensagem -->
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <!-- Turnos -->
+        <label for="exampleFormControlInput1" class="form-label">Selecione um Turno:</label>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="manha">
+            <label class="form-check-label" for="manha"> Manhã </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="tarde" checked>
+            <label class="form-check-label" for="tarde"> Tarde </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="noite" checked>
+            <label class="form-check-label" for="noite"> Noite </label>
+        </div>
+        
+
+        <select class="form-select my-3" aria-label="Default select example">
+            <option selected>Selecione uma linguagem</option>
+            <option value="1">C</option>
+            <option value="5">C#</option>
+            <option value="2">Java</option>
+            <option value="3">Python</option>
+            <option value="4">React</option>
+            <option value="6">JavaScript</option>
+        </select>
+
+        <button type="button" class="btn btn-success">Submit</button>
+        </form>            
+    </div>
+    
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
